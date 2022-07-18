@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  
+}
+
+.contact-button {
+  height: 40px;
+  width: 158px;
+  border-radius: 0px;
+  background-color: #000000;
+  color: #ffffff;
+}
