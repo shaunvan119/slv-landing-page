@@ -1,0 +1,41 @@
+
+
+.top-main {
+    width: 610px;
+    height: 650px;
+    background-color: #000000;
+}
+
+.top-main-container {
+    display: flex;
+}
+
+.top-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-h1 {
+    margin-left: -45px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
+    color: #ffffff;
+}
+
+.main-p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #b5b2b2;
+}
+
+
+
+
+
