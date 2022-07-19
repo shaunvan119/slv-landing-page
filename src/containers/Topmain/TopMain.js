@@ -15,7 +15,6 @@ function TopMain() {
                 you have less then 15 secounds to attract<br/>
                 their attention.</p>   
             </div>
-            
             <img src={computer} alt="computer"/>  
        </div>
 
@@ -33,6 +32,16 @@ function TopMain() {
             Your website needs to have emotional triggers to<br/>
             convert online traffic to hit that submit or buy button.</p>   
             </div>    
+       </div>
+
+       <div className="top-main-container-one">
+            <div className="top-main-one"> 
+            <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
+            <p className="main-p">Your website has one job, generating <br/>inbound leads.<br/>
+             We will build a SEO friendly website and<br/>
+             lead landing page that will convert online traffic.</p>   
+            </div>
+            <img src={computer} alt="computer"/>  
        </div>
     </div>
     )
