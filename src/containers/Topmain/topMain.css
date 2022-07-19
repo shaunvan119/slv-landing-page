@@ -1,21 +1,30 @@
 
 
-.top-main {
+.top-main-one {
     width: 610px;
     height: 650px;
     background-color: #000000;
-}
-
-.top-main-container {
-    display: flex;
-}
-
-.top-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.top-main-two {
+    width: 610px;
+    height: 650px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-main-container-one{
+    display: flex;
+}
+
 
 .main-h1 {
     margin-left: -45px;
@@ -24,6 +33,14 @@
     line-height: 48px;
     letter-spacing: 4.166666507720947px;
     color: #ffffff;
+}
+
+.main-h1-two {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;  
 }
 
 .main-p {
