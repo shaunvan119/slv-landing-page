@@ -1,6 +1,7 @@
 import BottomMain from "./containers/Bottommain/BottomMain";
 import Header from "./containers/Header/Header";
 import TopMain from "./containers/Topmain/TopMain";
+import Price from "./containers/PriceSection/Price"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <TopMain/>
       <BottomMain/>
+      <Price/>
     </div>
   );
 }

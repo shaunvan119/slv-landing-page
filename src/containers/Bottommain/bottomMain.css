@@ -23,14 +23,20 @@
     margin: 20px;
 }
 
+.info-bar-bottom {
+    margin-top: 50px;
+}
+
 .info-bar {
   display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 70px;
-  height: 500px;
+  height: 650px;
   background-color: #000000;
   color: #b5b2b2;
  

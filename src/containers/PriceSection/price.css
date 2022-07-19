@@ -1,0 +1,20 @@
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.price-box {
+    height: 407px;
+    width: 350px;
+    background-color: #F5F5F5;
+    margin: 20px;
+}
+
+.price-box-pro {
+    height: 470px;
+    width: 350px;
+    background-color: #000000;
+}
