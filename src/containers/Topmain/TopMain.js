@@ -1,5 +1,7 @@
 import './topMain.css'
 import computer from '../../assets/home/desktop/beautiful-stories.jpg'
+import Count from '../../components/CountWeb'
+import CountLeads from '../../components/CountLeads'
 
 
 function TopMain() {
@@ -8,12 +10,8 @@ function TopMain() {
         <div className="top-wrapper">
         <div className="top-main-container-one">
             <div className="top-main-one"> 
-            <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
-            <p className="main-p">Get it right the first time, dont spend 30K<br/>
-                on a landing page with all the bells and whistles.<br/>
-                From the point your prospect hits your website<br/>
-                you have less then 15 secounds to attract<br/>
-                their attention.</p>   
+            <h1 className="main-h1-count">Websites<br/> Transformed<br/><Count/></h1>
+            <h1 className="main-h1-count">Leads<br/> Generated<br/><CountLeads/></h1>
             </div>
             <img src={computer} alt="computer"/>  
        </div>
@@ -21,6 +19,7 @@ function TopMain() {
        <div className="top-main-container-one">
             <img src={computer} alt="computer"/>  
             <div className="top-main-two"> 
+         
             <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
             <p className="main-p">We will design a fully responsive website that will<br/>
             convert traffic into buyers, your website has one job,<br/>
@@ -37,9 +36,11 @@ function TopMain() {
        <div className="top-main-container-one">
             <div className="top-main-one"> 
             <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
-            <p className="main-p">Your website has one job, generating <br/>inbound leads.<br/>
-             We will build a SEO friendly website and<br/>
-             lead landing page that will convert online traffic.</p>   
+            <p className="main-p">Get it right the first time, dont spend 30K<br/>
+                on a landing page with all the bells and whistles.<br/>
+                From the point your prospect hits your website<br/>
+                you have less then 15 secounds to attract<br/>
+                their attention.</p>   
             </div>
             <img src={computer} alt="computer"/>  
        </div>

@@ -35,6 +35,17 @@
     color: #ffffff;
 }
 
+
+.main-h1-count {
+    font-size: 24px;
+    font-weight: 700;
+    
+    letter-spacing: 4.166666507720947px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
 .main-h1-two {
     color: #000000;
     font-size: 40px;
