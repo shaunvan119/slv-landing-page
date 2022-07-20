@@ -1,7 +1,10 @@
 import './topMain.css'
-import computer from '../../assets/home/desktop/beautiful-stories.jpg'
+import computer from '../../assets/home/desktop/computer.png'
 import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
+import pic from "../../assets/home/desktop/create-and-share.jpg"
+import computerTwo from "../../assets/home/desktop/computerTwo.png"
+
 
 
 function TopMain() {
@@ -13,11 +16,11 @@ function TopMain() {
             <h1 className="main-h1-count">Websites<br/> Transformed<br/><Count/></h1>
             <h1 className="main-h1-count">Leads<br/> Generated<br/><CountLeads/></h1>
             </div>
-            <img src={computer} alt="computer"/>  
+            <img src={computer} alt="computer" className="image-main"/>  
        </div>
 
        <div className="top-main-container-one">
-            <img src={computer} alt="computer"/>  
+            <img src={computerTwo} alt="computer" className="image-main"/>  
             <div className="top-main-two"> 
          
             <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
@@ -42,7 +45,7 @@ function TopMain() {
                 you have less then 15 secounds to attract<br/>
                 their attention.</p>   
             </div>
-            <img src={computer} alt="computer"/>  
+            <img src={pic} alt="computer" className="image-main"/>  
        </div>
     </div>
     )
