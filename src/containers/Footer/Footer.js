@@ -3,7 +3,7 @@ import banner from "../../assets/home/desktop/footerbanner.png"
 import { AiFillFacebook} from 'react-icons/ai';
 import { AiFillLinkedin} from 'react-icons/ai';
 import { AiOutlineArrowRight} from 'react-icons/ai';
-
+import logowhite from "../../assets/home/desktop/SVLwhite.svg"
 
 
 
@@ -18,9 +18,8 @@ function Footer() {
             </div>  
          <div className="Bottom-footer">
          <div className="logo-icons">
-            <p className="footer-logo">Logo</p>
-                <AiFillFacebook size={20}/>
-                <AiFillLinkedin size={20}/>
+                <AiFillFacebook size={62}/>
+                <AiFillLinkedin size={62}/>
             </div>
           <p className="sales-machine">I need a 24/7 sales machine</p>
           
