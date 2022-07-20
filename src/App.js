@@ -2,6 +2,7 @@ import BottomMain from "./containers/Bottommain/BottomMain";
 import Header from "./containers/Header/Header";
 import TopMain from "./containers/Topmain/TopMain";
 import Price from "./containers/PriceSection/Price"
+import Footer from "./containers/Footer/Footer";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <TopMain/>
       <BottomMain/>
       <Price/>
+      <Footer/>
     </div>
   );
 }
