@@ -28,41 +28,41 @@ function BottomMain() {
         </div>
         <div className="info-bar">
             <div className="info-bar-bottom">
-                <BiDevices size="62"/>
+                <BiDevices size="62" color='#F5F5F5'/>
                 <h2>100% Responsive websites</h2>
                 <p className="bottom-p">No matter which device you’re on, our sites are<br/>
                    fully responsive and look beautiful on any<br/>
                    screen.</p>
             </div>
             <div className="info-bar-bottom">
-                <TbHandClick size="62"/>
+                <TbHandClick size="62" color='#F5F5F5'/>
                 <h2>Increase conversion</h2>
                 <p className="bottom-p">Turning more browsers into buyers takes more then<br/> 
                  just a pretty website. Websites need engaging content<br/>
                  with emotional triggers</p>
             </div>
             <div className="info-bar-bottom">
-                <BiTimer size="62"/>
+                <BiTimer size="62" color='#F5F5F5'/>
                 <h2>The clock is ticking</h2>
                 <p className="bottom-p">Studies show you have 15 secounds to enage website traffic.<br/>
                    We can help create a website that creates an engaging<br/>
                    message, to improve your bounce rate</p>
             </div>
             <div className="info-bar-bottom">
-                <CgWebsite vices size="62"/>
+                <CgWebsite vices size="62" color='#F5F5F5'/>
                 <h2>Hosting</h2>
                 <p className="bottom-p">Website hosting included with all packages,<br/>
                     to secure your online content.<br/>
                    </p>
             </div>
             <div className="info-bar-bottom">
-                <MdOutlineDesignServices size="62"/>
+                <MdOutlineDesignServices size="62" color='#F5F5F5'/>
                 <h2>Web design</h2>
                 <p className="bottom-p">websites designed to grab buyers<br/>
                 attention</p>
             </div>
             <div className="info-bar-bottom">
-                <TbSettingsAutomation size="62"/>
+                <TbSettingsAutomation size="62" color='#F5F5F5'/>
                 <h2>Lead Automation</h2>
                 <p className="bottom-p">Automated your outbound lead strategy<br/> 
                 and save spending thousands on marketing companies<br/>
