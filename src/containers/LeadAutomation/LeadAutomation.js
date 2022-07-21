@@ -1,11 +1,4 @@
 import './lead.css'
-import baseapparel from '../../assets/portfolio/baseapparel.png'
-import pay from '../../assets/portfolio/pay.png'
-import scoot from '../../assets/portfolio/scoot.png'
-import suite from '../../assets/portfolio/suite.png'
-import { TbNumber1 } from 'react-icons/tb';
-import { TbNumber2 } from 'react-icons/tb';
-import { TbNumber3} from 'react-icons/tb';
 import { GiArchiveResearch } from 'react-icons/gi';
 import { FaFunnelDollar } from 'react-icons/fa';
 import { TbSettingsAutomation } from 'react-icons/tb';
@@ -37,7 +30,7 @@ function LeadAutomation() {
                 <GiArchiveResearch size="62" color='#F5F5F5'/>
                 <h2>Research data list</h2>
                 <p className="bottom-p">First we identify key decision makers,<br/>
-                   and identify key job titles relivant<br/>
+                   and identify key job titles relevant<br/>
                    to your target audience. We target<br/>
                    senior executives.</p>
             </div>
@@ -45,7 +38,7 @@ function LeadAutomation() {
                 <FaFunnelDollar size="62" color='#F5F5F5'/>
                 <h2>Scrape leads and add to funnel</h2>
                 <p className="bottom-p">Consolidate a list of key decision makers<br/>
-                relivant to your target audience,<br/>
+                relevant to your target audience,<br/>
                 we also clean the data list prior to<br/> launching campaigns.</p>
             </div>
             <div className="info-bar-bottom">

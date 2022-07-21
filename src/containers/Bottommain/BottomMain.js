@@ -44,7 +44,7 @@ function BottomMain() {
             <div className="info-bar-bottom">
                 <BiTimer size="62" color='#F5F5F5'/>
                 <h2>The clock is ticking</h2>
-                <p className="bottom-p">Studies show you have 15 secounds to enage website traffic.<br/>
+                <p className="bottom-p">Studies show you have 15 seconds to engage website traffic.<br/>
                    We can help create a website that creates an engaging<br/>
                    message, to improve your bounce rate</p>
             </div>

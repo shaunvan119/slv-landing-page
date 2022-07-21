@@ -2,7 +2,7 @@ import './topMain.css'
 import computer from '../../assets/home/desktop/computer.png'
 import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
-import pic from "../../assets/home/desktop/create-and-share.jpg"
+import CountLines from '../../components/CountLines'
 import computerTwo from "../../assets/home/desktop/computerTwo.png"
 import attention from "../../assets/home/desktop/attention.png"
 
@@ -16,6 +16,7 @@ function TopMain() {
             <div className="top-main-one"> 
             <h1 className="main-h1-count">Websites<br/> Transformed<br/><Count/></h1>
             <h1 className="main-h1-count">Leads<br/> Generated<br/><CountLeads/></h1>
+            <h1 className="main-h1-count">Lines of code<br/>Written<br/><CountLines/></h1>
             </div>
             <img src={computer} alt="computer" className="image-main"/>  
        </div>
@@ -40,10 +41,10 @@ function TopMain() {
        <div className="top-main-container-one">
             <div className="top-main-one"> 
             <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
-            <p className="main-p">Get it right the first time, dont spend 30K<br/>
+            <p className="main-p">Get it right the first time, don't spend 30K<br/>
                 on a landing page with all the bells and whistles.<br/>
                 From the point your prospect hits your website<br/>
-                you have less then 15 secounds to attract<br/>
+                you have less than 15 seconds to attract<br/>
                 their attention.</p>   
             </div>
             <img src={attention} alt="computer" className="image-main"/>  

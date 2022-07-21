@@ -23,12 +23,12 @@ function Price() {
                     <p>12 months free hosting</p>
                     <p>Free Domain</p>
                     <p>Automate website traffic</p>
-                    <p>Automate LinkedIn msg</p>
+                    <p>Automate LinkedIn messaging</p>
                     <p>Automate email campaigns</p>
                     <p>Lead list creation</p>
                     <p>Multipage website creation</p>
                  </span>   
-                <p className="price-pro">$990</p>
+                <p className="price-pro">$8400</p>
                 <button className="button-pro">Contact</button>
 
             </div>
@@ -41,7 +41,7 @@ function Price() {
                     <p>Free Domain</p>
                     <p></p>
                 </span>
-                <p className="price">$990</p>
+                <p className="price">$2600</p>
                 <button className="price-button-business">Contact</button>
             </div>
             
