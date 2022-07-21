@@ -4,6 +4,7 @@ import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
 import pic from "../../assets/home/desktop/create-and-share.jpg"
 import computerTwo from "../../assets/home/desktop/computerTwo.png"
+import attention from "../../assets/home/desktop/attention.png"
 
 
 
@@ -45,7 +46,7 @@ function TopMain() {
                 you have less then 15 secounds to attract<br/>
                 their attention.</p>   
             </div>
-            <img src={pic} alt="computer" className="image-main"/>  
+            <img src={attention} alt="computer" className="image-main"/>  
        </div>
     </div>
     )
