@@ -18,7 +18,7 @@ function TopMain() {
             <h1 className="main-h1-count">Leads<br/> Generated<br/><CountLeads/></h1>
             <h1 className="main-h1-count">Lines of code<br/>Written<br/><CountLines/></h1>
             </div>
-            <img src={computer} alt="computer" className="image-main"/>  
+            <img src={computer} alt="computer" className="image-main graphic"/>  
        </div>
 
        <div className="top-main-container-one">

@@ -2,6 +2,7 @@ import './price.css'
 import { Link } from "react-router-dom";
 
 
+
 function Price() {
     
     return (
@@ -30,6 +31,24 @@ function Price() {
                     <p>Multipage website creation</p>
                  </span>   
                 <p className="price-pro">$8400</p>
+                <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
+
+            </div>
+             
+            <div className="price-box-pro-mobile">
+                <h2 className="price-header-pro">Websites</h2>
+                <span className="list-pro">
+                    <p>Unlimited pages</p>
+                    <p>Web design customiztion</p>
+                    <p>12 months free hosting</p>
+                    <p>Free Domain</p>
+                    <p>Automate website traffic</p>
+                    <p>Automate LinkedIn messaging</p>
+                    <p>Automate email campaigns</p>
+                    <p>Lead list creation</p>
+                    <p>Multipage website creation</p>
+                 </span>   
+                <p className="price-pro"> From $990</p>
                 <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
 
             </div>

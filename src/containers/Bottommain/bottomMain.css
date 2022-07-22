@@ -27,17 +27,15 @@
     margin-top: 50px;
 }
 
-.info-bar {
-  display: flex;
+.bar-info {
   display: grid;
   grid-template-columns: auto auto auto;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 70px;
-  height: 650px;
-  background-color: #000000;
+  height: 560px;
+  
   color: #b5b2b2;
  
 }

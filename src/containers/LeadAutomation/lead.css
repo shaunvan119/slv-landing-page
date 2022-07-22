@@ -24,16 +24,21 @@
 }
 
 .info-bar-lead {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  
-  margin-top: 0px;
-  height: 450px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  justify-content: center;
  
+  margin-top: 0px;
   color: #b5b2b2;
  
 }
+
+.bottom-main-container-lead {
+    height: 550px;
+}
+
+
 
 h2 {
     font-family: DM Sans;
