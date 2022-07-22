@@ -2,7 +2,7 @@ import './footer.css'
 import banner from "../../assets/home/desktop/footerbanner.png"
 import { AiFillFacebook} from 'react-icons/ai';
 import { AiFillLinkedin} from 'react-icons/ai';
-
+import { Link } from "react-router-dom";
 
 
 
@@ -17,10 +17,10 @@ function Footer() {
             </div>  
          <div className="Bottom-footer">
          <div className="logo-icons">
-                <AiFillFacebook size={62}/>
-                <AiFillLinkedin size={62}/>
+                <a href="https://www.facebook.com/slvdevelopments" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillFacebook size={62}/></a>
+                <a href="https://www.linkedin.com/in/shaun-van-amersfoort-80b7b7194/" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillLinkedin size={62}/></a>
             </div>
-          <p className="sales-machine">I need a 24/7 sales machine?</p>
+          <Link style={{textDecoration: 'none', color: '#FFFFFF'}} to="/contactUs"><p className="sales-machine">I need a 24/7 sales machine?</p></Link>
           
             </div>
         </div>

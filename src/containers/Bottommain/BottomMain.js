@@ -20,11 +20,10 @@ function BottomMain() {
         <div className="bottom-main-container">
         <h1 className="bottom-h1">Some of our projects</h1>
         <div className="bottom-main-wrapper">
-        
-            <img className="portfolio" src={baseapparel} alt=""/>  
-            <img className="portfolio" src={pay} alt=""/>  
-            <img className="portfolio" src={scoot} alt=""/>  
-            <img className="portfolio" src={suite} alt=""/>  
+            <a href="https://magnificent-dieffenbachia-b7bc19.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={baseapparel} alt=""/></a>
+            <a href="https://symphonious-chebakia-166971.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={pay} alt=""/></a>  
+            <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={scoot} alt=""/></a>  
+            <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={suite} alt=""/></a>  
         </div>
         <div className="info-bar">
             <div className="info-bar-bottom">

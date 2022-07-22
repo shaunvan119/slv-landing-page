@@ -1,4 +1,5 @@
 import './price.css'
+import { Link } from "react-router-dom";
 
 
 function Price() {
@@ -13,7 +14,7 @@ function Price() {
                     <p>12 months free hosting</p>
                 </span>    
                 <p className="price">$990</p>
-                <button className="price-button-basic">Contact</button>
+                <Link to="/contactUs"><button className="price-button-basic">Contact</button></Link>
             </div>
             <div className="price-box-pro">
                 <h2 className="price-header-pro">Pro</h2>
@@ -29,7 +30,7 @@ function Price() {
                     <p>Multipage website creation</p>
                  </span>   
                 <p className="price-pro">$8400</p>
-                <button className="button-pro">Contact</button>
+                <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
 
             </div>
             <div className="price-box">
@@ -42,7 +43,7 @@ function Price() {
                     <p></p>
                 </span>
                 <p className="price">$2600</p>
-                <button className="price-button-business">Contact</button>
+                <Link to="/contactUs"><button className="price-button-business">Contact</button></Link>
             </div>
             
         </div>

@@ -12,6 +12,11 @@ body {
   background-color: #000000;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #fa7064;;
 }
 
 img {
