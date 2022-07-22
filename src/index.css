@@ -26,8 +26,48 @@ img {
 }
 
 
+/*tablet MQ*/
+
+@media  (max-width: 1143px) {
+  .graphic {
+    max-width: 600px;
+  }
 
 
+  .image-main {
+    max-width: 550px;
+  }
+
+  .bar-info {
+    padding-bottom: 150px;
+  }
+
+  
+}
+
+@media  (max-width: 930px) {
+  .graphic {
+    max-width: 600px;
+  }
+
+
+  .image-main {
+    max-width: 500px;
+  }
+
+  .bar-info {
+    padding-bottom: 150px;
+  }
+
+  .price-button-basic, .button-pro, .price-button-business {
+    max-width: 200px;
+  }
+
+  
+}
+
+
+/*mobile MQ*/
 @media  (max-width: 550px) {
 
 /*MQ header and top main*/
