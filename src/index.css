@@ -45,6 +45,13 @@ img {
   
 }
 
+@media  (max-width: 969px) {
+  .image-main {
+    max-width: 450px;
+  }
+
+}
+
 @media  (max-width: 930px) {
   .graphic {
     max-width: 600px;
@@ -52,7 +59,7 @@ img {
 
 
   .image-main {
-    max-width: 500px;
+    max-width: 250px;
   }
 
   .bar-info {
@@ -78,6 +85,10 @@ img {
    margin-right: -40px;
    
 }
+
+.image-main {
+    max-width: 100%;
+  }
 
 .graphic {
   display: none;
