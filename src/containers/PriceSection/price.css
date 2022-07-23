@@ -46,7 +46,11 @@
     font-size: 15px;
 }
 
-.price-header-pro {
+.from {
+    font-size: 24px;
+}
+
+.price-header-pro{
     color: #F5F5F5;
     font-size: 24px;
     font-weight: 700;

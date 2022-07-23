@@ -43,14 +43,14 @@ function BottomMain() {
                 <h2>Increase conversion</h2>
                 <p className="bottom-p">Turning more browsers into buyers takes more then<br/> 
                  just a pretty website. Websites need engaging content<br/>
-                 with emotional triggers</p>
+                 with emotional triggers.</p>
             </div>
             <div className="info-bar-bottom clock">
                 <BiTimer size="62" color='#F5F5F5'/>
                 <h2 className="clock-heading">The clock is ticking</h2>
                 <p className="bottom-p">Studies show you have 15 seconds to engage website traffic.<br/>
                    We can help create a website that creates an engaging<br/>
-                   message, to improve your bounce rate</p>
+                   message, to improve your bounce rate.</p>
             </div>
             <div className="info-bar-bottom hosting">
                 <CgWebsite vices size="62" color='#F5F5F5'/>
@@ -63,14 +63,14 @@ function BottomMain() {
                 <MdOutlineDesignServices size="62" color='#F5F5F5'/>
                 <h2>Web design</h2>
                 <p className="bottom-p">websites designed to grab buyers<br/>
-                attention</p>
+                attention.</p>
             </div>
             <div className="info-bar-bottom lead-auto">
                 <TbSettingsAutomation size="62" color='#F5F5F5'/>
                 <h2>Lead Automation</h2>
                 <p className="bottom-p">Automated your outbound lead strategy<br/> 
                 and save spending thousands on marketing companies<br/>
-                with no transparency</p>
+                with no transparency.</p>
             </div>
             </div>
             <div>

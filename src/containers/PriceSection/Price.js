@@ -14,7 +14,7 @@ function Price() {
                     <p>Web design customiztion</p>
                     <p>12 months free hosting</p>
                 </span>    
-                <p className="price">$990</p>
+                <p className="price"><span className='from'>From</span> $990</p>
                 <Link to="/contactUs"><button className="price-button-basic">Contact</button></Link>
             </div>
             <div className="price-box-pro">
@@ -30,7 +30,7 @@ function Price() {
                     <p>Lead list creation</p>
                     <p>Multipage website creation</p>
                  </span>   
-                <p className="price-pro">$8400</p>
+                <p className="price-pro"><span className='from'>From</span> $8400</p>
                 <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
 
             </div>
@@ -48,7 +48,7 @@ function Price() {
                     <p>Lead list creation</p>
                     <p>Multipage website creation</p>
                  </span>   
-                <p className="price-pro"> From $990</p>
+                <p className="price-pro"><span className='from'>From</span> $990</p>
                 <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
 
             </div>
@@ -61,7 +61,7 @@ function Price() {
                     <p>Free Domain</p>
                     <p></p>
                 </span>
-                <p className="price">$2600</p>
+                <p className="price"><span className='from'>From</span> $2600</p>
                 <Link to="/contactUs"><button className="price-button-business">Contact</button></Link>
             </div>
             

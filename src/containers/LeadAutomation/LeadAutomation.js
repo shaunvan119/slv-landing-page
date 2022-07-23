@@ -45,7 +45,7 @@ function LeadAutomation() {
                  <MdMarkEmailRead size="62" color='#F5F5F5'/>
                  <MdOutlineMessage size="62" color='#F5F5F5'/>
                 <h2>Automate campaigns to target list</h2>
-                <p className="bottom-p">Targeting the Consolidated contact list<br/>
+                <p className="bottom-p">Targeting a consolidated contact list<br/>
                    we set up automated campaigns<br/>
                    via automated email and linkedIn<br/> messaging.</p>
             </div>
