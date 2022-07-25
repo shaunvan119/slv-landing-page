@@ -1,20 +1,30 @@
 import './count.css'
-import CountUp from 'react-countup';
+import React, { useState, useEffect } from 'react';
 
-function CountLeads() {
-    
+
+const CountLeads = () => {
+    const [currentCount, setCount] = useState(0);
+    const timer = () => setCount(currentCount + 10);
+
+    useEffect(
+        () => {
+            if (currentCount >= 16800) {
+                return;
+            }
+            const id = setInterval(timer, 0);
+            return () => clearInterval(id);
+        },
+        
+    );
+
     return (
-        <CountUp start={0} end={16800} delay={1}>
-                {({ countUpRef }) => (
-                <div className='count-box'>
-                <h1 className="main-h1-count">Leads<br/> Generated<br/></h1>
-                <span className='count-component' ref={countUpRef} />
+        <div className='count-box'>
+                <h1 className="main-h1-count">Leads<br/>Generated<br/></h1>
+                <span className='count-component'>{currentCount}</span> 
                 </div>
-
-                
-                )}
-        </CountUp>
+       
     )
-}
+};
+
 
 export default CountLeads
