@@ -20,7 +20,7 @@ function Footer() {
                 <a href="https://www.facebook.com/slvdevelopments" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillFacebook size={62}/></a>
                 <a href="https://www.linkedin.com/in/shaun-van-amersfoort-80b7b7194/" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillLinkedin size={62}/></a>
             </div>
-          <Link style={{textDecoration: 'none', color: '#FFFFFF'}} to="/contactUs"><p className="sales-machine">I need a 24/7 sales machine?</p></Link>
+          <Link style={{textDecoration: 'none', color: '#FFFFFF'}} to="/contactUs"><p className="sales-machine">I need a 24/7 sales machine</p></Link>
           
             </div>
         </div>
