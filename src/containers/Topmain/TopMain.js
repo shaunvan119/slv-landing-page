@@ -14,9 +14,9 @@ function TopMain() {
         <div className="top-wrapper">
         <div className="top-main-container-one">
             <div className="top-main-one"> 
-            <h1 className="main-h1-count">Websites<br/> Transformed<br/><Count/></h1>
-            <h1 className="main-h1-count">Leads<br/> Generated<br/><CountLeads/></h1>
-            <h1 className="main-h1-count">Lines of code<br/>Written<br/><CountLines/></h1>
+            <Count/>
+            <CountLeads/>
+            <CountLines/>
             </div>
             <img src={computer} alt="computer" className="image-main graphic"/>  
        </div>
