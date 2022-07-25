@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 const CountLeads = () => {
     const [currentCount, setCount] = useState(0);
-    const timer = () => setCount(currentCount + 10);
+    const timer = () => setCount(currentCount + 20);
 
     useEffect(
         () => {

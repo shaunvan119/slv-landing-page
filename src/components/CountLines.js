@@ -1,20 +1,32 @@
 import './count.css'
+import React, { useState, useEffect } from 'react';
 
-import CountUp from 'react-countup';
 
-function CountLines() {
-    
+const CountLines = () => {
+    const [currentCount, setCount] = useState(0);
+    const timer = () => setCount(currentCount + 100);
+
+    useEffect(
+        () => {
+            if (currentCount >= 100000) {
+                return;
+            }
+            const id = setInterval(timer, 0);
+            return () => clearInterval(id);
+        },
+        
+    );
+
     return (
-        <CountUp start={0} end={100000} delay={1}>
-                {({ countUpRef }) => (
-                <div className='count-box'>
-                <h1 className="main-h1-count">Lines of code<br/>Written<br/></h1>
-                <span className='count-component' ref={countUpRef} />
+        <div className='count-box'>
+                <h1 className="main-h1-count">Lines of code<br/>written<br/></h1>
+                <span className='count-component'>{currentCount}</span> 
                 </div>
-                
-                )}
-        </CountUp>
+       
     )
-}
+};
+
+
+
 
 export default CountLines
