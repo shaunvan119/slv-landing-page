@@ -8,6 +8,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.count-section {
     text-align: center;
 }
 

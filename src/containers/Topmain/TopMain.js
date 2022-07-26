@@ -13,7 +13,7 @@ function TopMain() {
     return (
         <div className="top-wrapper">
         <div className="top-main-container-one">
-            <div className="top-main-one"> 
+            <div className="top-main-one count-section"> 
             <Count/>
             <CountLeads/>
             <CountLines/>

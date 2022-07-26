@@ -1,7 +1,11 @@
 
 
 
-
+.bottom-main-container-lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 
 .lead-heading {
