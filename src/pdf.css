@@ -1,0 +1,40 @@
+.pdf-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    align-items: center;
+
+}
+
+.pdf-button {
+height: 40px;
+  width: 158px;
+  border-radius: 0px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+ margin: 30px;
+}
+
+.page {
+    height: 80%;
+}
+
+@media (min-width: 550px) {
+ 
+ .page-mobile {
+  display: none;
+ }
+}
+
+
+@media  (max-width: 550px) {
+
+/*MQ header and top main*/
+
+.page-desktop {
+  display: none;
+}
+
+}

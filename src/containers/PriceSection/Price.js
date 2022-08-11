@@ -10,8 +10,8 @@ function Price() {
             <div className="price-box">
                 <h2 className="price-header">Basic</h2>
                 <span className="list-itmes">
-                    <p>1 page design</p>
-                    <p>Web design customiztion</p>
+                    <p>1 page template design</p>
+                    <p>Desktop and mobile build</p>
                     <p>12 months free hosting</p>
                 </span>    
                 <p className="price"><span className='from'>From</span> $990</p>
@@ -21,16 +21,16 @@ function Price() {
                 <h2 className="price-header-pro">Pro</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
-                    <p>Web design customiztion</p>
+                    <p>Customiztion web design </p>
+                    <p>Custom 30 page concept design</p>
                     <p>12 months free hosting</p>
                     <p>Free Domain</p>
-                    <p>Automate website traffic</p>
-                    <p>Automate LinkedIn messaging</p>
-                    <p>Automate email campaigns</p>
-                    <p>Lead list creation</p>
-                    <p>Multipage website creation</p>
+                    <p>Mobile and desktop build</p>
+                    <p>in-depth strategy session</p>
+                    <p>Desinged to convert traffic</p>
+                    <p>API integration</p>
                  </span>   
-                <p className="price-pro"><span className='from'>From</span> $8400</p>
+                <p className="price-pro"><span className='from'>From</span> $7180</p>
                 <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
 
             </div>
@@ -39,14 +39,14 @@ function Price() {
                 <h2 className="price-header-pro">Websites</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
-                    <p>Web design customiztion</p>
+                    <p>Customiztion web design </p>
+                    <p>Custom 30 page concept design</p>
                     <p>12 months free hosting</p>
                     <p>Free Domain</p>
-                    <p>Automate website traffic</p>
-                    <p>Automate LinkedIn messaging</p>
-                    <p>Automate email campaigns</p>
-                    <p>Lead list creation</p>
-                    <p>Multipage website creation</p>
+                    <p>Mobile and desktop build</p>
+                    <p>in-depth strategy session</p>
+                    <p>Desinged to convert traffic</p>
+                    <p>API integration</p>
                  </span>   
                 <p className="price-pro"><span className='from'>From</span> $990</p>
                 <Link to="/contactUs"><button className="button-pro">Contact</button></Link>
@@ -55,13 +55,13 @@ function Price() {
             <div className="price-box">
                 <h2 className="price-header">Business</h2>
                 <span className="list-itmes">
-                    <p>Unlimited pages</p>
-                    <p>Web design customiztion</p>
+                    <p>5 page template design</p>
+                    <p>Deskptop and mobile build</p>
                     <p>12 months free hosting</p>
                     <p>Free Domain</p>
-                    <p></p>
+                    
                 </span>
-                <p className="price"><span className='from'>From</span> $2600</p>
+                <p className="price"><span className='from'>From</span> $1990</p>
                 <Link to="/contactUs"><button className="price-button-business">Contact</button></Link>
             </div>
             

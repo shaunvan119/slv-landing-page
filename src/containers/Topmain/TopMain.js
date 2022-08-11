@@ -5,6 +5,7 @@ import CountLeads from '../../components/CountLeads'
 import CountLines from '../../components/CountLines'
 import computerTwo from "../../assets/home/desktop/computerTwo.png"
 import attention from "../../assets/home/desktop/attention.png"
+import design from "../../assets/home/desktop/design.png"
 
 
 
@@ -18,7 +19,7 @@ function TopMain() {
             <CountLeads/>
             <CountLines/>
             </div>
-            <img src={computer} alt="computer" className="image-main graphic"/>  
+            <img src={design} alt="computer" className="image-main graphic"/>  
        </div>
 
        <div className="top-main-container-one">
