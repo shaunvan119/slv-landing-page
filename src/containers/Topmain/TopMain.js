@@ -13,7 +13,7 @@ function TopMain() {
     
     return (
         <div className="top-wrapper">
-        <div className="top-main-container-one">
+        <div className="top-main-container-one top-count-box">
             <div className="top-main-one count-section"> 
             <Count/>
             <CountLeads/>
@@ -22,12 +22,12 @@ function TopMain() {
             <img src={design} alt="computer" className="image-main graphic"/>  
        </div>
 
-       <div className="top-main-container-one">
+       <div className="top-main-container-one mobile-images">
             <img src={computerTwo} alt="computer" className="image-main"/>  
             <div className="top-main-two"> 
          
             <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
-            <p className="main-p">We will design a fully responsive website that will<br/>
+            <p className="main-p mobile-p">We will design a fully responsive website that will<br/>
             convert traffic into buyers, your website has one job,<br/>
             generate leads. Web designers are great at making<br/>
             things pretty but they can not build you a website<br/>
@@ -40,7 +40,7 @@ function TopMain() {
        </div>
 
        <div className="top-main-container-one">
-            <div className="top-main-one"> 
+            <div className="top-main-one top-websites"> 
             <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
             <p className="main-p">Get it right the first time, don't spend 30K<br/>
                 on a landing page with all the bells and whistles.<br/>
@@ -48,7 +48,7 @@ function TopMain() {
                 you have less than 15 seconds to attract<br/>
                 their attention.</p>   
             </div>
-            <img src={attention} alt="computer" className="image-main"/>  
+            <img src={attention} alt="computer" className="image-main attention-image"/>  
        </div>
     </div>
     )

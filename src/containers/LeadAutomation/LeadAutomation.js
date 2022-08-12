@@ -14,6 +14,7 @@ import background from "../../assets/home/desktop/computer.png"
 function LeadAutomation() {
     
     return (
+        <div className='mobile-wrapper'>
         <div className="bottom-main-container-lead" 
         style={{ backgroundImage: 
         `url(${background})`, 
@@ -66,6 +67,7 @@ function LeadAutomation() {
                 
             </div>
 
+        </div>
         </div>
         
     )

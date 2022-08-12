@@ -76,8 +76,49 @@ img {
 
 /*mobile MQ*/
 @media  (max-width: 550px) {
+  .top-count-box {
+    height: 500px;
+  }
+
+  .top-websites {
+    height: 20px;
+  }
+
+  .count-component {
+   font-size: 10;
+}
+
+.mobile-images {
+  height: 400px;
+  margin-bottom: -140px;
+}
+
+.top-main-two, .main-h1-two, .mobile-p, .attention-image {
+  display: none;
+}
+
+.mobile-wrapper {
+  display: none;
+  margin: 0 auto;
+}
+
+.main-h1 {
+  margin-top: -50px;
+}
+
+
+
+.lead-heading {
+  font-size: 10px;
+}
+
+
 
 /*MQ header and top main*/
+.contact-button {
+  display: none;
+}
+
 
 .logo {
    height: 200px;
@@ -97,6 +138,7 @@ img {
 .top-main-container-one {
   display: flex;
   flex-direction: column;
+ 
 }
 
 
@@ -106,6 +148,19 @@ img {
 }
 
 /*MQ bottom section*/
+
+.top-main-container-one {
+  text-align: center;
+
+}
+
+.main-h1 {
+    margin-right: -45px;
+}
+
+.sales-machine{
+  display: none;
+}
 
 .bottom-main-wrapper {
     display: flex;
@@ -169,6 +224,12 @@ img {
  label {
    text-align: center;
    margin-left: 170px;
+
+}
+
+.logo-icons {
+  display: flex;
+  flex-direction: column;
 
 }
 
