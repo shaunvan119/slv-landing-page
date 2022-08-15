@@ -18,7 +18,7 @@ const CountLines = () => {
     );
 
     return (
-        <div className='count-box'>
+        <div className='count-box lines-box'>
                 <h1 className="main-h1-count">Lines of code<br/>written<br/></h1>
                 <span className='count-component'>{currentCount}</span> 
                 </div>

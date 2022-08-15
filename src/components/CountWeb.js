@@ -18,7 +18,7 @@ const CountWeb = () => {
     );
 
     return (
-        <div className='count-box'>
+        <div className='count-box web-box'>
                 <h1 className="main-h1-count">Websites<br/>saved<br/></h1>
                 <span className='count-component'>{currentCount}</span> 
                 </div>

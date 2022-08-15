@@ -76,6 +76,21 @@ img {
 
 /*mobile MQ*/
 @media  (max-width: 550px) {
+
+.lines-box {
+  display: none;
+}
+
+.web-box {
+  margin-top: -50px;
+
+}
+
+.bottom-h1 {
+  margin-top: 80px;
+
+}
+
   .top-count-box {
     height: 500px;
   }
