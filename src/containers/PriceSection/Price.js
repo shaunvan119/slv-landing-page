@@ -17,7 +17,7 @@ function Price() {
                 <p className="price"><span className='from'>From</span> $990</p>
                 <Link to="/contactUs"><button className="price-button-basic">Contact</button></Link>
             </div>
-            <div className="price-box-pro">
+            <div className="price-box-pro price-box">
                 <h2 className="price-header-pro">Pro</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
