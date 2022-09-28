@@ -14,20 +14,29 @@ const MasterPage = () => {
 
     <div className="content">
         <img src={logo} alt="Logo" className="master_logo" />
-      <div className="master_info_boxes">
-      <div className="master_container_one">
-      <h1>25% off Websites</h1>
-      <p>Design and build</p>
-      <p>Free hosting and domain</p>
-      <p>Optimized for SEO</p>
-        <button className="buttons_master">More Info</button>
+      <div className="master_info_boxes ">
+      
+        <div className="master_container_one margin_right">
+          <h1>25% off Websites</h1>
+          <p>Design and build</p>
+          <p>Free hosting and domain</p>
+          <p>Optimized for SEO</p>
+            <button className="buttons_master">More Info</button>
       </div>
-      <div className="master_container_two">
-        <button className="buttons_master">More Info</button>
+      <div className="master_container_one margin_right">
+          <h1>25% off Socail</h1>
+          <p>SEO and SEM</p>
+          <p>Socail media</p>
+          <p>Lead automation</p>
+            <button className="buttons_master">More Info</button>
       </div>
-      <div className="master_container_three">
-        <button className="buttons_master">More Info</button>
-      </div>
+          <div className="master_container_one">
+          <h1>10% B2B outreach</h1>
+          <p>Appopitment setting</p>
+          <p>Cold calling</p>
+          <p>Lead list generation</p>
+            <button className="buttons_master">More Info</button>
+       </div>
       
       </div>  
     </div>
