@@ -5,8 +5,10 @@ import Price from "./containers/PriceSection/Price"
 import Footer from "./containers/Footer/Footer";
 import LeadAutomation from "./containers/LeadAutomation/LeadAutomation";
 import ContactForm from "./components/ContactForm";
+import MasterPage from "./containers/masterpage/MasterPage";
 import { Routes, Route } from "react-router-dom";
-import PdfPage from "./PdfPage";
+
+
 
 
 function App() {
@@ -14,13 +16,13 @@ function App() {
     <div className="App__wrapper">
     
       <Routes>
-      <Route exact path="/" element={[<Header/>,
+      <Route exact path="/" element={<MasterPage/>}/> 
+      <Route path="/digital" element={[<Header/>,
       <TopMain/>,
       <LeadAutomation/>,
       <BottomMain/>,
       <Price/>,
-      <PdfPage/>,
-      <Footer/>,]}/> 
+      <Footer/>,]}/>
         <Route path="/contactUs" element={<ContactForm/>}/>
       </Routes>
     </div>

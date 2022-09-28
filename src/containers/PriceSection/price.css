@@ -7,7 +7,7 @@
 
 
 .price-box {
-    height: 407px;
+    height: 440px;
     width: 350px;
     background-color: #F5F5F5;
     margin: 20px;
@@ -88,7 +88,7 @@
     background-color: #000000;
     color: #FFFFFF;
     border: none;
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 12px;
 }
 
