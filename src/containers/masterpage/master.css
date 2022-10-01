@@ -40,14 +40,16 @@ video {
 }
 
 .buttons_master {
-  
+  position: relative;
  background-color: transparent;
   width: 200px;
   height: 50px;
   border-radius: 50px;
-  border: 2px solid whitesmoke;
+  border: none;
   color: whitesmoke;
   font-size: 15px;  
+  background-color: black;
+  
 }
 
 .buttons_master:hover {
@@ -57,12 +59,15 @@ video {
 
 
   .master_container_one {
+    
     border: 2px solid white;
     height: 300px;
     width: 300px;
     align-items: center;
     text-align: center;
     border-radius: 20px;
+    background-color: white;
+    opacity: .5;
     
     
   }

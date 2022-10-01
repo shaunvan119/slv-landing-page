@@ -5,7 +5,7 @@ import { TbSettingsAutomation } from 'react-icons/tb';
 import { MdCampaign } from 'react-icons/md';
 import { MdMarkEmailRead } from 'react-icons/md';
 import { MdOutlineMessage } from 'react-icons/md';
-import background from "../../assets/home/desktop/computer.png"
+import background from "../../assets/home/desktop/blackBackground.png"
 
 
 

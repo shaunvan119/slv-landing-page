@@ -13,6 +13,7 @@ body {
   color: #ffffff;
   border: none;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .contact-button:hover {
@@ -53,6 +54,8 @@ img {
 }
 
 @media  (max-width: 930px) {
+
+
   .graphic {
     max-width: 600px;
   }
@@ -111,6 +114,8 @@ img {
 .top-main-two, .main-h1-two, .mobile-p, .attention-image {
   display: none;
 }
+
+
 
 .mobile-wrapper {
   display: none;

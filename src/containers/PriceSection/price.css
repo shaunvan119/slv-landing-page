@@ -73,6 +73,7 @@
     color: #FFFFFF;
     border: none;
     font-size: 12px;
+    border-radius: 50px;
 }
 
 
@@ -90,6 +91,7 @@
     border: none;
     margin-top: 0px;
     font-size: 12px;
+    border-radius: 50px;
 }
 
 .price-button-basic:hover {
@@ -106,6 +108,7 @@
     background-color: #F5F5F5;
     border: none;
     font-size: 12px;
+    border-radius: 50px;
    
 }
 

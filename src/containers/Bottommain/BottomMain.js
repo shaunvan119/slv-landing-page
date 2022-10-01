@@ -9,7 +9,7 @@ import { BiTimer } from 'react-icons/bi';
 import { CgWebsite } from 'react-icons/cg';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { TbSettingsAutomation } from 'react-icons/tb';
-import background from "../../assets/home/desktop/background.png"
+import background from "../../assets/home/desktop/blackBackground.png"
 
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import videoBg from "../../assets/videoBg.mp4"
 import './master.css'
 import logo from "../../assets/home/desktop/SVLwhite.svg"
+import { Link } from "react-router-dom"
 
 const MasterPage = () => {
   return (
@@ -21,7 +22,8 @@ const MasterPage = () => {
           <p>Design and build</p>
           <p>Free hosting and domain</p>
           <p>Optimized for SEO</p>
-            <button className="buttons_master">More Info</button>
+            <Link to="/digital"><button className="buttons_master">More Info</button></Link>
+            
       </div>
       <div className="master_container_one margin_right">
           <h1>25% off Socail</h1>

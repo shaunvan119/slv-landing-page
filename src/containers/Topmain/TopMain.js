@@ -1,13 +1,13 @@
 import './topMain.css'
-import computer from '../../assets/home/desktop/computer.png'
 import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
 import CountLines from '../../components/CountLines'
 import computerTwo from "../../assets/home/desktop/computerTwo.png"
 import attention from "../../assets/home/desktop/attention.png"
 import design from "../../assets/home/desktop/design.png"
-
-
+import videoBg from "../../assets/videoBg.mp4"
+import backGroundVid from "../../assets/backGround.mp4"
+import onlineShopping from "../../assets/onlineShopping.mp4"
 
 function TopMain() {
     
@@ -19,13 +19,14 @@ function TopMain() {
             <CountLeads/>
             <CountLines/>
             </div>
-            <img src={design} alt="computer" className="image-main graphic"/>  
+            <video src={videoBg} autoPlay loop muted className="image-main graphic"/>
+             
        </div>
 
        <div className="top-main-container-one mobile-images">
-            <img src={computerTwo} alt="computer" className="image-main"/>  
+       <video src={backGroundVid} autoPlay loop muted className="image-main"/>
+             
             <div className="top-main-two"> 
-         
             <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
             <p className="main-p mobile-p">We will design a fully responsive website that will<br/>
             convert traffic into buyers, your website has one job,<br/>
@@ -40,15 +41,15 @@ function TopMain() {
        </div>
 
        <div className="top-main-container-one">
-            <div className="top-main-one top-websites"> 
-            <h1 className="main-h1">Turn website <br/>visitors into<br/>buyers</h1>
+            <div className="top-main-one-white top-websites"> 
+            <h1 className="main-h1-black">Turn website <br/>visitors into<br/>buyers</h1>
             <p className="main-p">Get it right the first time, don't spend 30K<br/>
                 on a landing page with all the bells and whistles.<br/>
                 From the point your prospect hits your website<br/>
                 you have less than 15 seconds to attract<br/>
                 their attention.</p>   
             </div>
-            <img src={attention} alt="computer" className="image-main attention-image"/>  
+            <video src={onlineShopping} autoPlay loop muted className="image-main attention-image"/>  
        </div>
     </div>
     )

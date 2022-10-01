@@ -11,6 +11,26 @@
     
 }
 
+.top-main-one-white  {
+    width: 100%;
+    height: 610px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-h1-black {
+    color: black;
+    margin-left: -45px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
+
+}
+
 .count-section {
     text-align: center;
 }
@@ -80,7 +100,22 @@
 
 
 
+@media  (max-width: 500px) {
+  .top-main-one-white {
+    background-color: black;
+    
+  }
 
+  .main-h1-black {
+    color: white;
+ 
+}
+
+
+ 
+
+  
+}
 
 
 
