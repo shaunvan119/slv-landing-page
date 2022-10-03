@@ -6,8 +6,13 @@
 }
 
 .bottom-main-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+  grid-template-columns: auto auto auto;
+align-content: space-around;
+justify-content: space-evenly;
+ 
+  align-items: center;
+
 }
 
 .bottom-h1 {
@@ -63,6 +68,20 @@ h2 {
  .info-bar {
   display: none;
  }
+
+ .bottom-main-wrapper {
+    grid-template-columns: auto auto ;
+}
+
+}
+
+@media (max-width: 652px) {
+
+ .bottom-main-wrapper {
+    
+    grid-template-columns: auto;
+    
+}
 }
 
 
