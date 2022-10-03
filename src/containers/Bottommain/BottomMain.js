@@ -3,6 +3,8 @@ import baseapparel from '../../assets/portfolio/baseapparel.png'
 import pay from '../../assets/portfolio/pay.png'
 import scoot from '../../assets/portfolio/scoot.png'
 import suite from '../../assets/portfolio/suite.png'
+import fitnessWebPic from '../../assets/portfolio/fitnessWebPic.png'
+import fitnessWebPicTwo from '../../assets/portfolio/fitnessWebPicTwo.png'
 import { BiDevices } from 'react-icons/bi';
 import { TbHandClick } from 'react-icons/tb';
 import { BiTimer } from 'react-icons/bi';
@@ -25,6 +27,8 @@ function BottomMain() {
             <a href="https://symphonious-chebakia-166971.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={pay} alt=""/></a>  
             <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={scoot} alt=""/></a>  
             <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={suite} alt=""/></a>  
+            <a href="https://magenta-peony-bf391a.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPic} alt=""/></a>
+            <a href="https://dynamic-rabanadas-981526.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPicTwo} alt=""/></a> 
         </div>
         <div className="info-bar" style={{ backgroundImage: 
         `url(${background})`, 
