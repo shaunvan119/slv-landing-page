@@ -50,6 +50,13 @@ label {
   background-color: #000000;
   color: #ffffff;
   border: none;
+  border-radius: 50px;
+}
+
+
+.input-button:hover {
+    background-color: #fa7064;
+    cursor: pointer;
 }
 
 

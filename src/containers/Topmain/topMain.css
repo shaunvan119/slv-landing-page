@@ -100,7 +100,7 @@
 
 
 
-@media  (max-width: 500px) {
+@media  (max-width: 827px) {
   .top-main-one-white {
     background-color: black;
     
@@ -108,11 +108,17 @@
 
   .main-h1-black {
     color: white;
+    margin-left: 20px;
  
 }
 
 
- 
+
+.image-main {
+    height: 700px;
+
+}
+
 
   
 }

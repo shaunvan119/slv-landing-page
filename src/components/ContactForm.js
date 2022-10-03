@@ -5,13 +5,6 @@ import './contactform.css'
 import Header from "../containers/Header/Header";
 import background from "../assets/home/desktop/background.png"
 
-
-
-
-
-
-
-
 const Result = () => {
   return (
     

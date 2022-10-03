@@ -19,12 +19,12 @@ function TopMain() {
             <CountLeads/>
             <CountLines/>
             </div>
-            <video src={videoBg} autoPlay loop muted className="image-main graphic"/>
+            <video src={videoBg} autoPlay loop muted className="image-main graphic" id="myVideo"/>
              
        </div>
 
        <div className="top-main-container-one mobile-images">
-       <video src={backGroundVid} autoPlay loop muted className="image-main"/>
+       <video src={backGroundVid} autoPlay loop muted className="image-main" id="myVideo"/>
              
             <div className="top-main-two"> 
             <h1 className="main-h1-two">Fully responsive<br/> website with<br/>purpose</h1>
@@ -49,7 +49,7 @@ function TopMain() {
                 you have less than 15 seconds to attract<br/>
                 their attention.</p>   
             </div>
-            <video src={onlineShopping} autoPlay loop muted className="image-main attention-image"/>  
+            <video src={onlineShopping} autoPlay loop muted className="image-main attention-image" id="myVideo"/>  
        </div>
     </div>
     )

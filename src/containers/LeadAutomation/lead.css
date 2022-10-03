@@ -68,7 +68,7 @@ h2 {
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 827px) {
  
  .design-convert {
   display: none;
@@ -76,7 +76,7 @@ h2 {
 }
 
 
-@media  (max-width: 550px) {
+@media  (max-width: 827px) {
 
 /*MQ header and top main*/
 
