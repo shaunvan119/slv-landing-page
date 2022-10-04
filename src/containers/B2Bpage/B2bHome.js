@@ -1,12 +1,13 @@
-import React from 'react'
-import HeaderB2b from './HeaderB2b/HeaderB2b'
+import './B2bhome.css'
+import Header from '../Header/Header';
 
-const B2bHome = () => {
-  return (
-    <div>
-    <HeaderB2b/>
-    </div>
-  )
+function B2bHome() {
+    
+    return (
+        <div>
+            <Header/>
+        </div>
+    )
 }
 
 export default B2bHome
