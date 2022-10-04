@@ -37,7 +37,7 @@ const MasterPage = () => {
           <p>Appopitment setting</p>
           <p>Cold calling</p>
           <p>Lead list generation</p>
-            <button className="buttons_master">More Info</button>
+            <Link to="/b2bhome"><button className="buttons_master">More Info</button></Link>
        </div>
       
       </div>  
