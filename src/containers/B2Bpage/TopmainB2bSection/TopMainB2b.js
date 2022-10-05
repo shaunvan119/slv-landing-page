@@ -21,7 +21,7 @@ function TopMainB2b() {
        </div>
         <div className="top_wrapper"> 
         <div className="warapper_left">
-               <video src={callVid} autoPlay loop muted className="image-main graphic" id="myVideo"/> 
+               <video src={callVid} autoPlay loop muted className="image-main graphic call_vid" id="myVideo"/> 
             </div>
         <div className="wrapper_right">
             <div className='yarris_wrapper'>
@@ -39,7 +39,7 @@ function TopMainB2b() {
             </div>  
             <div className='aipt_wrapper'>
                 <h2 className="b2b_heading">AIPT</h2>
-                    <p className="bottom-p bottom-aipt">I built a lead generating network from the<br/> ground up, which
+                    <p className="bottom-p bottom-aipt">Built a lead generating network from the<br/> ground up, which
                     has resulted in achieving<br/>  2.5 million in sales revenue.</p>  
             </div> 
             
