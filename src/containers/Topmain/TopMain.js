@@ -2,9 +2,6 @@ import './topMain.css'
 import Count from '../../components/CountWeb'
 import CountLeads from '../../components/CountLeads'
 import CountLines from '../../components/CountLines'
-import computerTwo from "../../assets/home/desktop/computerTwo.png"
-import attention from "../../assets/home/desktop/attention.png"
-import design from "../../assets/home/desktop/design.png"
 import videoBg from "../../assets/videoBg.mp4"
 import backGroundVid from "../../assets/backGround.mp4"
 import onlineShopping from "../../assets/onlineShopping.mp4"

@@ -6,8 +6,9 @@ import Footer from "./containers/Footer/Footer";
 import LeadAutomation from "./containers/LeadAutomation/LeadAutomation";
 import ContactForm from "./components/ContactForm";
 import MasterPage from "./containers/masterpage/MasterPage";
+import B2BhomePage from "./containers/B2Bpage/B2BhomePage";
 import { Routes, Route } from "react-router-dom";
-import B2bHome from "./containers/B2Bpage/B2bHome";
+
 
 
 
@@ -18,6 +19,7 @@ function App() {
     
       <Routes>
       <Route exact path="/" element={<MasterPage/>}/> 
+      <Route exact path="/B2BhomePage" element={<B2BhomePage/>}/> 
       <Route path="/digital" element={[<Header/>,
       <TopMain/>,
       <LeadAutomation/>,
@@ -25,7 +27,7 @@ function App() {
       <Price/>,
       <Footer/>,]}/>
         <Route path="/contactUs" element={<ContactForm/>}/>
-      <Route exact path="/b2bhome" element={<B2bHome/>}/> 
+      
       </Routes>
     </div>
   );
