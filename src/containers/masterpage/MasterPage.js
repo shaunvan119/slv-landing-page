@@ -1,7 +1,7 @@
 import React from 'react'
 import videoBg from "../../assets/videoBg.mp4"
 import './master.css'
-import logo from "../../assets/home/desktop/SVLwhite.svg"
+import logo from "../../assets/home/desktop/SandFox.png"
 import { Link } from "react-router-dom"
 
 const MasterPage = () => {
@@ -30,7 +30,7 @@ const MasterPage = () => {
           <p>SEO and SEM</p>
           <p>Socail media</p>
           <p>Lead automation</p>
-            <button className="buttons_master">More Info</button>
+            <button className="buttons_master">Comeing soon</button>
       </div>
           <div className="master_container_one">
           <h1>10% B2B outreach</h1>

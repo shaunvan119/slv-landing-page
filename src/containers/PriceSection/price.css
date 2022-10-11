@@ -11,6 +11,7 @@
     width: 350px;
     background-color: #F5F5F5;
     margin: 20px;
+    
 }
 
 .price-pro, .price {
@@ -54,7 +55,7 @@
     color: #F5F5F5;
     font-size: 24px;
     font-weight: 700;
-    margin-top: 50px;
+    padding: -50px;
 }
 
 .price-header {
@@ -64,6 +65,7 @@
 
 .price-box-pro {
     text-align: center;
+    
 }
 
 .price-button-business {

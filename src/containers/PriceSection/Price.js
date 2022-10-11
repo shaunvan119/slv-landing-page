@@ -23,13 +23,9 @@ function Price() {
                 <h2 className="price-header-pro">Pro</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
-                    <p>Customiztion web design </p>
-                    <p>Custom 30 page concept design</p>
                     <p>12 months free hosting</p>
-                    <p>Free Domain</p>
+                    <p>Free Domain, SEO, email</p>
                     <p>Mobile and desktop build</p>
-                    <p>in-depth strategy session</p>
-                    <p>Desinged to convert traffic</p>
                     <p>API integration</p>
                  </span>   
                 <p className="price-pro"><span className='from'>From</span> $7180</p>
@@ -41,13 +37,9 @@ function Price() {
                 <h2 className="price-header-pro">Websites</h2>
                 <span className="list-pro">
                     <p>Unlimited pages</p>
-                    <p>Customiztion web design </p>
-                    <p>Custom 30 page concept design</p>
                     <p>12 months free hosting</p>
-                    <p>Free Domain and email</p>
+                    <p>Free Domain, SEO, email</p>
                     <p>Mobile and desktop build</p>
-                    <p>in-depth strategy session</p>
-                    <p>Desinged to convert traffic</p>
                     <p>API integration</p>
                  </span>   
                 <p className="price-pro"><span className='from'>From</span> $990</p>
