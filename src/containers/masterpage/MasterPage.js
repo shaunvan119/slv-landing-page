@@ -4,6 +4,7 @@ import './master.css'
 import logo from "../../assets/home/desktop/SandFox.png"
 import { Link } from "react-router-dom"
 
+
 const MasterPage = () => {
   return (
     
