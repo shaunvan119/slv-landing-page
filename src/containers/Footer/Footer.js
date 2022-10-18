@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     
     return (
-        <div className="footer">
+        <div className="footer footer_main">
            <div className="banner-container">
             <img src={banner} alt="mountains" className="banner-footer" />
             <div class="top-left">Australian trusted <br/>
