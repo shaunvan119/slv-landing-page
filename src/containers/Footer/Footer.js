@@ -16,7 +16,7 @@ function Footer() {
             and experienced web<br/> developers</div>
             </div>  
          <div className="Bottom-footer">
-         <div className="logo-icons">
+         <div className="logo-icons icons_main">
                 <a href="https://www.facebook.com/slvdevelopments" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillFacebook size={62}/></a>
                 <a href="https://www.linkedin.com/in/shaun-van-amersfoort-80b7b7194/" style={{textDecoration: 'none', color: '#FFFFFF'}}><AiFillLinkedin size={62}/></a>
             </div>
