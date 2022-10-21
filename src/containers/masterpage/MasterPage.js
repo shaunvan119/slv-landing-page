@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 const MasterPage = () => {
   return (
     
-    <div className="main">
+    <div className="main main_master">
     
     <div className='overlay'></div>
 

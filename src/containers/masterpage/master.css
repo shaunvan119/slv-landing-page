@@ -33,11 +33,7 @@ video {
 }
 
 .master_logo {
-  margin-bottom: -50px;
-  margin-top: -180px;
   height: 400px;
-  
-  
 }
 
 .buttons_master {
@@ -101,11 +97,11 @@ video {
 
 
 video {
-  height: 220vh;
+  height: 180vh;
 }
 
 .overlay {
-  height: 220vh;
+  height: 180vh;
 
 }
 
@@ -114,4 +110,5 @@ video {
 }
 
 
+ 
 }

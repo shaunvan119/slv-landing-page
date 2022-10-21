@@ -1,6 +1,4 @@
 import './bottomMain.css'
-import baseapparel from '../../assets/portfolio/baseapparel.png'
-import pay from '../../assets/portfolio/pay.png'
 import scoot from '../../assets/portfolio/scoot.png'
 import suite from '../../assets/portfolio/suite.png'
 import fitnessPicThree from "../../assets/portfolio/fitnessPicThree.png"
@@ -23,9 +21,7 @@ function BottomMain() {
     return (
         <div className="bottom-main-container bottom-grid">
         <h1 className="bottom-h1">Some of our projects</h1>
-        <div className="bottom-main-wrapper">
-            <a href="https://magnificent-dieffenbachia-b7bc19.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={baseapparel} alt=""/></a>
-            <a href="https://symphonious-chebakia-166971.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={pay} alt=""/></a>  
+        <div className="bottom-main-wrapper">  
             <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={scoot} alt=""/></a>  
             <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={suite} alt=""/></a>  
             <a href="https://magenta-peony-bf391a.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPic} alt=""/></a>
