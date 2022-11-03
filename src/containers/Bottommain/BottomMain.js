@@ -1,5 +1,6 @@
 import './bottomMain.css'
 import scoot from '../../assets/portfolio/scoot.png'
+import roofing from '../../assets/portfolio/roofing.png'
 import suite from '../../assets/portfolio/suite.png'
 import fitnessPicThree from "../../assets/portfolio/fitnessPicThree.png"
 import fitnessWebPic from '../../assets/portfolio/fitnessWebPic.png'
@@ -22,11 +23,12 @@ function BottomMain() {
         <div className="bottom-main-container bottom-grid">
         <h1 className="bottom-h1">Some of our projects</h1>
         <div className="bottom-main-wrapper">  
-            <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={scoot} alt=""/></a>  
-            <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={suite} alt=""/></a>  
-            <a href="https://magenta-peony-bf391a.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPic} alt=""/></a>
-            <a href="https://dynamic-rabanadas-981526.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPicTwo} alt=""/></a> 
-            <a href="https://relaxed-blancmange-a9f9c3.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessPicThree} alt=""/></a> 
+            <a href="https://roofing-site.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={roofing} alt="roof website"/></a>
+            <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={scoot} alt="scooter website"/></a>  
+            <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={suite} alt="api website"/></a>  
+            <a href="https://magenta-peony-bf391a.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPic} alt="fitness website"/></a>
+            <a href="https://dynamic-rabanadas-981526.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessWebPicTwo} alt="fitness website"/></a> 
+            <a href="https://relaxed-blancmange-a9f9c3.netlify.app/" target="_blank" rel="noreferrer"><img className="portfolio" src={fitnessPicThree} alt="fitness website"/></a> 
         </div>
         <div className="info-bar" style={{ backgroundImage: 
         `url(${background})`, 
